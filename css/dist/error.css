@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.error-container {
+  text-align: center;
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.error-title {
+  font-size: 72px;
+  font-weight: bold;
+  color: #FD9222;
+}
+
+.error-message {
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+.error-link {
+  text-decoration: none;
+  color: #fff;
+  background-color: #FD9222;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.error-link:hover {
+  background-color: #FD9222;
+}
