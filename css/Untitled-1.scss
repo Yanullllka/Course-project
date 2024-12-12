@@ -90,43 +90,43 @@ body {
     }
 
     .burger-block {
-        display: none; /* Скрываем бургер-блок по умолчанию */
+        display: none;
     }
     
     /* Мобильные стили */
     @media (max-width: 992px) {
         .header-menu__list {
-            display: none; /* Скрываем основное меню на мобильных устройствах */
-            flex-direction: column; /* Меню будет вертикальным */
-            position: absolute; /* Позиционируем меню */
-            top: 60px; /* Отступ сверху */
-            left: 0; /* Прижимаем к левому краю */
+            display: none; 
+            flex-direction: column;
+            position: absolute;
+            top: 60px;
+            left: 0; 
             padding: 10px;
-            background-color: white; /* Цвет фона меню */
-            width: 100%; /* Ширина меню */
+            background-color: white;
+            width: 100%; 
             margin: 0;
-            z-index: 10; /* Поверх остальных элементов */
+            z-index: 10; 
         }
     
         .burger-block {
-            display: flex; /* Показываем бургер-блок на мобильных устройствах */
+            display: flex;
             flex-direction: column;
             justify-content: space-between;
-            width: 35px; /* Ширина бургер-блока */
-            height: 25px; /* Высота бургер-блока */
+            width: 35px; 
+            height: 25px;
             cursor: pointer;
         }
     
         .burger-block__line {
             display: block;
             width: 100%;
-            height: 2.5px; /* Высота линий */
-            background-color: black; /* Цвет линий */
-            border-radius: 5px; /* Скругление углов линий */
+            height: 2.5px; 
+            background-color: black; 
+            border-radius: 5px;
         }
     
         .header-menu__list.active {
-            display: flex; /* Показываем бургер-меню при активном состоянии */
+            display: flex; 
         }
     }
 }
@@ -1125,7 +1125,7 @@ text-decoration: none;
 }
 .main-customer-review__wrap{
     display: grid;
-grid-template-columns: repeat(1, 1fr); /* Две колонки */
+grid-template-columns: repeat(1, 1fr); 
 gap: 10px;
 justify-items: center;
 }
@@ -1205,13 +1205,13 @@ display: flex;
     }
     .main-products__list{
         display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Две колонки */
+    grid-template-columns: repeat(2, 1fr); 
     gap: 10px;
     justify-items: center;
     }
     .main-customer-review__wrap{
         display: grid;
-    grid-template-columns: repeat(1, 1fr); /* Две колонки */
+    grid-template-columns: repeat(1, 1fr); 
     gap: 10px;
     justify-items: center;
     }
@@ -1266,7 +1266,7 @@ display: flex;
 
     .main-how-made__content{
         display: grid;
-    grid-template-columns: repeat(1, 1fr); /* Две колонки */
+    grid-template-columns: repeat(1, 1fr);
     gap: 10px;
     justify-items: center;
     }
@@ -1496,9 +1496,3 @@ display: flex;
                 }
                 
             }
-           
-         
-    
-
-        
-  
